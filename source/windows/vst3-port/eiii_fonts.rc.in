@@ -1,0 +1,8 @@
+// Original Emulated-3 SIL OFL font resources. Copyright and OFL texts:
+ // upstream/third_party/fonts/OFL-NotoSans.txt and OFL-ArchivoNarrow.txt.
+101 RCDATA "@EIII_FONT_REGULAR@"
+102 RCDATA "@EIII_FONT_BOLD@"
+103 RCDATA "@EIII_FONT_NARROW@"
+
+// Original-sized reference crop; loaded only by the GUI presentation.
+104 RCDATA "@EIII_FLOPPY_PNG@"
