@@ -1,0 +1,34 @@
+name: Vendor pinned public Emulated-3 source
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/vendor-upstream.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  import-original-sources:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Import missing original sources and verify 125A overlays
+        run: python3 tools/vendor_upstream.py
+      - name: Commit only public upstream source files
+        shell: bash
+        run: |
+          git add source/upstream/
+          if git diff --cached --quiet; then
+            echo "Source already complete"
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git commit -m "source: vendor pinned original parguinsys Emulated-3 files"
+            git push origin HEAD:main
+          fi
