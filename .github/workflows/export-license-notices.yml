@@ -1,0 +1,45 @@
+name: Export third-party license notices for Windows package
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/export-license-notices.yml
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  licenses:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Make archive of exact third-party notices
+        shell: python
+        run: |
+          import pathlib, zipfile
+          root = pathlib.Path(".")
+          paths = [
+              "LICENSE", "CREDITS.md", "BUILDING.md", "INSTALL.md",
+              "source/upstream/standalone/third_party/mame/PROVENANCE.md",
+              "source/upstream/standalone/third_party/mame/3rdparty/softfloat3/COPYING.txt",
+              "source/upstream/third_party/clap/LICENSE",
+              "source/upstream/third_party/stb/LICENSE",
+              "source/upstream/third_party/fonts/OFL-ArchivoNarrow.txt",
+              "source/upstream/third_party/fonts/OFL-NotoSans.txt",
+          ]
+          pathlib.Path("dist").mkdir(exist_ok=True)
+          with zipfile.ZipFile("dist/EIII-LICENSE-NOTICES.zip", "w", compression=zipfile.ZIP_DEFLATED) as z:
+              for p in paths:
+                  if not (root / p).is_file():
+                      raise FileNotFoundError(p)
+                  z.write(root / p, p)
+          print("LICENSE_ARCHIVE_PASS", len(paths))
+      - uses: actions/upload-artifact@v4
+        with:
+          name: EIII-THIRD-PARTY-NOTICES
+          path: dist/EIII-LICENSE-NOTICES.zip
+          if-no-files-found: error
+          retention-days: 7
