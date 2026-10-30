@@ -1,8 +1,8 @@
-# 125A Emulated-3 — Windows VST3
+# 125A Emulator III — Windows VST3
 
 **Windows x64 VST3 port of [Emulated-3](https://github.com/parguinsys/Emulated-3), the unofficial E-mu Emulator III sampler emulator.**
 
-> **Windows x64 VST3 v1.0.0 is publicly available.** [Download the Windows release](https://github.com/challanger2000/125A-Emulated-3-Windows-VST3/releases/tag/v1.0.0). Original E-mu ROM/OS media are not included.
+> **Windows x64 VST3 v1.0.0 is publicly available.** [Download the Windows release](https://github.com/challanger2000/125A-Emulator-III-Windows-VST3/releases/tag/v1.0.0). Original E-mu ROM/OS media are not included.
 
 ## Two Windows VST3 instruments
 
@@ -15,7 +15,7 @@ Both instruments share the Emulated-3 engine and have distinct VST3 identities.
 
 **Special thanks to [parguinsys](https://github.com/parguinsys/Emulated-3)** for developing Emulated-3 and making this Windows adaptation possible. The core emulation is derived from that work, not a separate 125A emulation written from scratch.
 
-Thanks also to the contributors to MAME, Berkeley SoftFloat, CLAP, stb, the open-source typefaces, and the Steinberg VST3 development tooling. Detailed provenance and applicable third-party license notices will accompany the source and release.
+Thanks also to the contributors to MAME, Berkeley SoftFloat, CLAP, stb, the open-source typefaces, and the Steinberg VST3 development tooling. Detailed provenance and applicable third-party license notices accompany the source and release.
 
 ## Installation — required ROMs and OS image
 
