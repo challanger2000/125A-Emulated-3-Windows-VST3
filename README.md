@@ -2,7 +2,8 @@
 
 **Windows x64 VST3 port of [Emulated-3](https://github.com/parguinsys/Emulated-3), the unofficial E-mu Emulator III sampler emulator.**
 
-> **Windows x64 VST3 v1.0.0 is publicly available.** [Download the Windows release](https://github.com/challanger2000/125A-Emulated-3-Windows-VST3/releases/tag/v1.0.0). Original E-mu ROM/OS media are not included.\n
+> **Windows x64 VST3 v1.0.0 is publicly available.** [Download the Windows release](https://github.com/challanger2000/125A-Emulated-3-Windows-VST3/releases/tag/v1.0.0). Original E-mu ROM/OS media are not included.
+
 ## Two Windows VST3 instruments
 
 - **125A Vintage Sampler III** — custom 125A front-panel design.
