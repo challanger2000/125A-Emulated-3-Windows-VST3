@@ -28,4 +28,4 @@ The build targets are `EIII125A` and `VintageSamplerIII125A`. To install the two
 
 The owner-approved D0 source revision built successfully in GitHub Actions on 29 October 2026 (run #40793580607), including the Steinberg validator, core regression tests and ROM-free host lifecycle checks. The owner subsequently confirmed operation in Studio One. This is not a promise of broad host compatibility, nor a certification of every EIII operation.
 
-Public distribution requires a separate legal/assets review and matching package validation. See the original upstream GPL and third-party notices distributed here.
+The publicly released v1.0.0 binaries and their corresponding source are linked from [the GitHub release](https://github.com/challanger2000/125A-Emulator-III-Windows-VST3/releases/tag/v1.0.0). See the original upstream GPL and third-party notices distributed here.
