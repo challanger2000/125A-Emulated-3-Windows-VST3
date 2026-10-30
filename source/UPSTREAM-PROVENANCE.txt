@@ -1,0 +1,3 @@
+Upstream: https://github.com/parguinsys/Emulated-3
+Commit: 8dd3407941fd241df2ec504ae3051bc65e08f2f6
+License: GPL-3.0 (see upstream/LICENSE)
