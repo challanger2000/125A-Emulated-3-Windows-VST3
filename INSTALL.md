@@ -1,4 +1,4 @@
-# Installing 125A Emulated-3 — Windows x64 VST3
+# Installing 125A Emulator III — Windows x64 VST3
 
 This guide is for the **Windows VST3 release**, not the original Linux CLAP/standalone version.
 
