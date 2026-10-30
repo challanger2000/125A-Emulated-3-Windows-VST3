@@ -1,4 +1,4 @@
-# Credits and acknowledgements (public release draft)
+# Credits and acknowledgements
 
 ## Original emulation project
 
@@ -33,6 +33,3 @@ This is an independent, unofficial software project and is not affiliated with, 
 
 Special thanks to **parguinsys** for laying the foundation for this Windows VST3 port and to the maintainers and contributors of the open-source projects above. This project would not exist in its present form without their work.
 
----
-
-Draft: verify final shipped dependency set and corresponding license files before publishing. No public release is implied by this file.
