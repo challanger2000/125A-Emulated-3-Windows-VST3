@@ -1,0 +1,1178 @@
+{
+  "schema": 1,
+  "source_revision": "0a90ed7c1bbf4a40fe95664aacd2d89b0df28886",
+  "original_upstream": "parguinsys/Emulated-3@8dd3407941fd241df2ec504ae3051bc65e08f2f6",
+  "purpose": "exact modified and additional files to overlay onto original public Emulated-3 source tree",
+  "files": [
+    {
+      "path": "source/UPSTREAM-PROVENANCE.txt",
+      "sha": "d2b263c467ce030e1305741469926ecff30d3de6",
+      "mode": "100644"
+    },
+    {
+      "path": "source/upstream/cem/eiii_cem3387.cpp",
+      "sha": "ffd555de724e46baacf4b3543cf003ebc9ce263c",
+      "mode": "100644"
+    },
+    {
+      "path": "source/upstream/cem/eiii_cem3387.h",
+      "sha": "49e6b347325886149579045574f1c4d6449f9545",
+      "mode": "100644"
+    },
+    {
+      "path": "source/upstream/cem/eiii_cem3387_v2.cpp",
+      "sha": "48927f008fa7628df7dcf9550e519f52594c3129",
+      "mode": "100644"
+    },
+    {
+      "path": "source/upstream/cem/eiii_cem3387_v2.h",
+      "sha": "4ee84ea2a4e28f9ea1aac44bbb0598e639c264f6",
+      "mode": "100644"
+    },
+    {
+      "path": "source/upstream/cem/eiii_cem_cv_conditioning.cpp",
+      "sha": "45a244499d1f64a8cf4b623240f4e00c0c7f2da7",
+      "mode": "100644"
+    },
+    {
+      "path": "source/upstream/cem/eiii_cem_cv_conditioning.h",
+      "sha": "58856bf7b8b0022bcbec6e83a45d18b807533f10",
+      "mode": "100644"
+    },
+    {
+      "path": "source/upstream/host/eiii_backend.cpp",
+      "sha": "dc44ef698c64dc6ac80719d62676d0cdb7ed37ab",
+      "mode": "100644"
+    },
+    {
+      "path": "source/upstream/host/eiii_backend.h",
+      "sha": "aace6e5bfe31060afe42a71edc263edca1a5d830",
+      "mode": "100644"
+    },
+    {
+      "path": "source/upstream/host/eiii_decimator.h",
+      "sha": "78a94e744300b1ac2049dddac0c05365857bf3de",
+      "mode": "100644"
+    },
+    {
+      "path": "source/upstream/panel/eiii_panel_adapter.cpp",
+      "sha": "258b2250ef7a239fd6a036f62cdbf97b616f1840",
+      "mode": "100644"
+    },
+    {
+      "path": "source/upstream/panel/eiii_panel_adapter.h",
+      "sha": "6b35b96c7084c100c80f0a45817867fd530cd767",
+      "mode": "100644"
+    },
+    {
+      "path": "source/upstream/runtime/adc_quantize.h",
+      "sha": "a427c07842c149f00bd496200236449a360e1e68",
+      "mode": "100644"
+    },
+    {
+      "path": "source/upstream/runtime/eiii_bank_import.cpp",
+      "sha": "b9a1be9c8a88082a3d5a68d38838b8263514f6ae",
+      "mode": "100644"
+    },
+    {
+      "path": "source/upstream/runtime/eiii_bank_import.h",
+      "sha": "f0a6430ba7347b0c9de087d7abd785fb7f32af65",
+      "mode": "100644"
+    },
+    {
+      "path": "source/upstream/runtime/eiii_engine.cpp",
+      "sha": "0db90b5ffa61725fcaf6bf36fd609721b9e0f2cf",
+      "mode": "100644"
+    },
+    {
+      "path": "source/upstream/runtime/eiii_engine.h",
+      "sha": "d9196c8d46074414e93b7f5dd33f18dd604ac756",
+      "mode": "100644"
+    },
+    {
+      "path": "source/upstream/runtime/eiii_machine.h",
+      "sha": "e7c12bbf3645edb027507d3854f2dab25d8f2fcb",
+      "mode": "100644"
+    },
+    {
+      "path": "source/upstream/runtime/eiii_runtime.cpp",
+      "sha": "e0ea070693a03efefb4d31575fcae64c3deb3121",
+      "mode": "100644"
+    },
+    {
+      "path": "source/upstream/runtime/eiii_runtime.h",
+      "sha": "cc4cfede0e07f04cdf722543dd5a2173b5184cc7",
+      "mode": "100644"
+    },
+    {
+      "path": "source/upstream/runtime/eiii_runtime_impl.h",
+      "sha": "97ca8acf3522a9a31ee689977c713a04bb710c8c",
+      "mode": "100644"
+    },
+    {
+      "path": "source/upstream/runtime/latency_policy.h",
+      "sha": "9d6dc05b39e9cda5fb3f7e864362d6bc5b178d3f",
+      "mode": "100644"
+    },
+    {
+      "path": "source/upstream/runtime/progress_watchdog.h",
+      "sha": "6f9304e95af314daefacc34fc537b0ac27931993",
+      "mode": "100644"
+    },
+    {
+      "path": "source/upstream/runtime/sample_input.h",
+      "sha": "991dd6e954d8bcc422868aeca32b8b38735a0d45",
+      "mode": "100644"
+    },
+    {
+      "path": "source/upstream/runtime/wav_firmware_import.cpp",
+      "sha": "be0ebb570106f5e2308c53977b29b470fab789ca",
+      "mode": "100644"
+    },
+    {
+      "path": "source/upstream/runtime/wav_firmware_import.h",
+      "sha": "b0092c8db7b2d7c03d558554647e9430ff67f742",
+      "mode": "100644"
+    },
+    {
+      "path": "source/upstream/runtime/wav_import.cpp",
+      "sha": "30782ca4db960b576744b49ce698b0f940770e27",
+      "mode": "100644"
+    },
+    {
+      "path": "source/upstream/runtime/wav_import.h",
+      "sha": "8e00452e533a78aa15837cfe12d3b9e73dd10d8e",
+      "mode": "100644"
+    },
+    {
+      "path": "source/upstream/runtime/wav_place_key.h",
+      "sha": "8f75264103fe48a1c38b801cc12253064fb0f32f",
+      "mode": "100644"
+    },
+    {
+      "path": "source/upstream/standalone/first_start_midi.h",
+      "sha": "af1c5bc84111a68bca93fcfc405e541b6d91904e",
+      "mode": "100644"
+    },
+    {
+      "path": "source/upstream/standalone/shim/eiii_cd_read_bounds.h",
+      "sha": "4670ca599f8545904ab7b674c843c0be1946115c",
+      "mode": "100644"
+    },
+    {
+      "path": "source/upstream/standalone/shim/eiii_scsi_mode_select.h",
+      "sha": "9da7291a16c9695358d1de93f58f208e373ac54e",
+      "mode": "100644"
+    },
+    {
+      "path": "source/upstream/standalone/shim/emu.h",
+      "sha": "b557a2a892e877147801c892a455bd150f1bee87",
+      "mode": "100644"
+    },
+    {
+      "path": "source/upstream/standalone/shim/emu_shim.cpp",
+      "sha": "e1f50311b2d9a6040288ef33143cd51fd52ff383",
+      "mode": "100644"
+    },
+    {
+      "path": "source/upstream/standalone/shim/image_fingerprint.h",
+      "sha": "5e2bb3eb03910017b8317d4dc8a4e4f2ad1dfc91",
+      "mode": "100644"
+    },
+    {
+      "path": "source/upstream/standalone/shim/imagedev/cdromimg.h",
+      "sha": "7ee87858b9b13e87af00c1908e2175297f144081",
+      "mode": "100644"
+    },
+    {
+      "path": "source/upstream/standalone/shim/imagedev/floppy.h",
+      "sha": "59ff4ede404d024bad9f22a9fe44c8e577a1de29",
+      "mode": "100644"
+    },
+    {
+      "path": "source/upstream/standalone/shim/imagedev/harddriv.h",
+      "sha": "037eb0566b39c7ac22a3c551956bfea997f1f3f9",
+      "mode": "100644"
+    },
+    {
+      "path": "source/upstream/standalone/shim/large_file_io.h",
+      "sha": "ed7e0e89b55b5dbfc50fb7730b049e5e9cb7b471",
+      "mode": "100644"
+    },
+    {
+      "path": "source/upstream/standalone/shim/sector_bounds.h",
+      "sha": "37b9dc5af051d60cba902e3608ca5d22ad7ed7e3",
+      "mode": "100644"
+    },
+    {
+      "path": "source/upstream/standalone/shim/utf8_file_paths.h",
+      "sha": "5ac5216a25afdfe7b9d2b153afd37f8902e00908",
+      "mode": "100644"
+    },
+    {
+      "path": "source/upstream/standalone/third_party/mame/PROVENANCE.md",
+      "sha": "400466be6f304f4bb365773c06baad2eac86ac94",
+      "mode": "100644"
+    },
+    {
+      "path": "source/upstream/standalone/third_party/mame/src/devices/bus/nscsi/cd.cpp",
+      "sha": "240ec43a51280e632a765a45c70ec2a5c7ea1860",
+      "mode": "100644"
+    },
+    {
+      "path": "source/upstream/standalone/third_party/mame/src/devices/bus/nscsi/cd.h",
+      "sha": "bbffcbf2a55cc7f1bcd07487258af4442ca1f3d1",
+      "mode": "100644"
+    },
+    {
+      "path": "source/upstream/standalone/third_party/mame/src/devices/bus/nscsi/hd.cpp",
+      "sha": "a1d1dfa1045319045976c6fde794e166484f686c",
+      "mode": "100644"
+    },
+    {
+      "path": "source/upstream/standalone/third_party/mame/src/devices/bus/nscsi/hd.h",
+      "sha": "c12d0218ea0f0cfe31b7168d039a197d1d343f90",
+      "mode": "100644"
+    },
+    {
+      "path": "source/upstream/standalone/third_party/mame/src/devices/cpu/ns32000/ns32000.h",
+      "sha": "b7d2e7a49312a2e5a4703400ce208f5b26054f1f",
+      "mode": "100644"
+    },
+    {
+      "path": "source/upstream/standalone/third_party/mame/src/devices/machine/fdc_pll.cpp",
+      "sha": "a5a9dbb8fc7e9804c1312d6dc1414cbb59f7edfc",
+      "mode": "100644"
+    },
+    {
+      "path": "source/upstream/standalone/third_party/mame/src/devices/machine/fdc_pll.h",
+      "sha": "b6d8f6fb25bab0feef7add2bc9003c3122c11f91",
+      "mode": "100644"
+    },
+    {
+      "path": "source/upstream/standalone/third_party/mame/src/devices/machine/ncr5380.h",
+      "sha": "1654b8ef40d741ddef2d0759adda9ad0f08b9637",
+      "mode": "100644"
+    },
+    {
+      "path": "source/upstream/standalone/third_party/mame/src/devices/machine/ns32081.cpp",
+      "sha": "ee7df40e88efaa56917840d57ba26e33fef47f01",
+      "mode": "100644"
+    },
+    {
+      "path": "source/upstream/standalone/third_party/mame/src/devices/machine/ns32081.h",
+      "sha": "4653b8fc1229e0e46e9e32156d52fd61120e1989",
+      "mode": "100644"
+    },
+    {
+      "path": "source/upstream/standalone/third_party/mame/src/devices/machine/nscsi_bus.cpp",
+      "sha": "314edfc9d0bc70db7794c6c52acaa2eed1016046",
+      "mode": "100644"
+    },
+    {
+      "path": "source/upstream/standalone/third_party/mame/src/devices/machine/nscsi_bus.h",
+      "sha": "c3214500239fe6623e145fbfbcb0a99aecec8b33",
+      "mode": "100644"
+    },
+    {
+      "path": "source/upstream/standalone/third_party/mame/src/devices/machine/nscsi_hle.cpp",
+      "sha": "1dcf7b83ef64e4b3249383f06c66f6fe7872cc14",
+      "mode": "100644"
+    },
+    {
+      "path": "source/upstream/standalone/third_party/mame/src/devices/machine/nscsi_hle.h",
+      "sha": "1ff9f7be9e11edc1055394628c5e9e8058ba6084",
+      "mode": "100644"
+    },
+    {
+      "path": "source/upstream/standalone/third_party/mame/src/devices/machine/wd_fdc.cpp",
+      "sha": "ebc0e4b6390a2fb04533c9d07b49fd2c7f80500a",
+      "mode": "100644"
+    },
+    {
+      "path": "source/upstream/standalone/third_party/mame/src/devices/machine/wd_fdc.h",
+      "sha": "6d2e7ca3d53e6a14466343e716a613123538af81",
+      "mode": "100644"
+    },
+    {
+      "path": "source/upstream/standalone/third_party/mame/src/devices/machine/z80scc.h",
+      "sha": "5e272665b0084b088f5ca6f4e0c6bd307767e70c",
+      "mode": "100644"
+    },
+    {
+      "path": "source/upstream/standalone/third_party/mame/src/emu/diserial.h",
+      "sha": "5d2ed34267b43f28e314e0407f2aac6c698f522b",
+      "mode": "100644"
+    },
+    {
+      "path": "source/upstream/standalone/tools/audit_mame_manifest.py",
+      "sha": "35101f14149df7ab40b88cc4dc6204131dd170ba",
+      "mode": "100644"
+    },
+    {
+      "path": "source/upstream/standalone/tools/verify_mame_a15.py",
+      "sha": "6e1104612ef389ed102dc2480d514ef123cbc371",
+      "mode": "100644"
+    },
+    {
+      "path": "source/upstream/standalone/ui_macro.h",
+      "sha": "91ce321234327c7ab1153abc4b5d008b4007b9a8",
+      "mode": "100644"
+    },
+    {
+      "path": "source/upstream/tests/hd_changes.cpp",
+      "sha": "48061841ed71094ac87575e857cf64c069b5dcd6",
+      "mode": "100644"
+    },
+    {
+      "path": "source/upstream/tools/eiii_bank_import.py",
+      "sha": "cf4b8d019b378b5db472d85b4cf686c3feb80595",
+      "mode": "100644"
+    },
+    {
+      "path": "source/upstream/ui/125A_Logo_Master_FINAL.svg",
+      "sha": "bd398ffa3b728b1a847bb519fad8168222bccb48",
+      "mode": "100644"
+    },
+    {
+      "path": "source/upstream/ui/logo_data_0.inc",
+      "sha": "1c0ad5838d3f15f21398848e76d6c07a10d67752",
+      "mode": "100644"
+    },
+    {
+      "path": "source/upstream/ui/logo_data_1.inc",
+      "sha": "387ea487ca4087870c1b2e2dfcba8f7fae8f89e7",
+      "mode": "100644"
+    },
+    {
+      "path": "source/upstream/ui/panel_view.cpp",
+      "sha": "4b5d24105094989c63a6769844b86c92c22f7306",
+      "mode": "100644"
+    },
+    {
+      "path": "source/upstream/ui/raster.cpp",
+      "sha": "ae1a9d9512bd33f348408a49c9c3d009c5f91c17",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/CMakeLists.txt",
+      "sha": "c1cae76d94c3316e59512c4e441b7f85d7b52970",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/d0-test/README.txt",
+      "sha": "cef6827e784c5777b9d1fa73c2fdd97c1cd4b828",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/d0-test/Run-D0-Tests.ps1",
+      "sha": "6cc930622f6bb010b4c5ead8c336cc4728493245",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/d0-test/Start.cmd",
+      "sha": "3f74aa0fd8f42536418e9d5b15a4415f63ddd62c",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/runtime_link_probe.cpp",
+      "sha": "3b0b78be7dd0726e6b460be1d2c1829ce0c86101",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/tests/Run-WavFirmwareTests.ps1",
+      "sha": "7c1f8860ae391b57b0e4de17e8edba13dcfd95b0",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/tests/adc_quantize_tests.cpp",
+      "sha": "feb1fea189cc955a19b8df4c83b98a0db9bbbda9",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/tests/audio_backend_recall_tests.cpp",
+      "sha": "285aa10c5eaf9f49f964741011c19a27f943d779",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/tests/b02_audio_timeline_tests.cpp",
+      "sha": "c677eeca98f409a0c58e544ac2d63ca493471f72",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/tests/b02_cem_v1_continuation_tests.cpp",
+      "sha": "f9f2f054b3326e29e11c2b1aac8a7ad1c69e0677",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/tests/b02_cem_v1_section_tests.cpp",
+      "sha": "fddfe65155a1c1e3bf279000e0ad13b13f070872",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/tests/b02_cem_v2_bank_continuation_tests.cpp",
+      "sha": "a159f66595b8a2e11df1a731cf08cd9458a8ca6a",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/tests/b02_cem_v2_cv_continuation_tests.cpp",
+      "sha": "b5231187973bcd1aa192a3b3fbbede13102707bd",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/tests/b02_cem_v2_output_continuation_tests.cpp",
+      "sha": "e0061c3dfe696bfa590d6bf1e7fd31e61aa6b637",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/tests/b02_cem_v2_section_tests.cpp",
+      "sha": "285902aa46ec3547468a9481b57cd1da557c2736",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/tests/b02_cem_v2_voice_continuation_tests.cpp",
+      "sha": "f0c86295d1f90934eb8fdcd01b1b8c28708720d0",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/tests/b02_core_audio_queue_tests.cpp",
+      "sha": "bb1e45fbb67b4fbba37d16e861699599f465fb23",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/tests/b02_core_audio_timing_tests.cpp",
+      "sha": "5572a96871279ef904274a39fe40fa2d9eb2de08",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/tests/b02_core_cd_section_tests.cpp",
+      "sha": "db2e9ebf537e0c56c4fe0f9a3093b2360ed867df",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/tests/b02_core_checkpoint_bundle_tests.cpp",
+      "sha": "6bed493072ffbf3a78fa9ec65bb54dd39d8ef326",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/tests/b02_core_cpu_clock_tests.cpp",
+      "sha": "3ba183ca8684ee94618bc3ca572893e48d46164e",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/tests/b02_core_cpu_registers_tests.cpp",
+      "sha": "2f51072757870f8821228cab4c74bd221fae8809",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/tests/b02_core_execution_section_tests.cpp",
+      "sha": "91189ca0605da46f76a716b35ce382bc28c8d264",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/tests/b02_core_fchip_section_tests.cpp",
+      "sha": "75f734d0efd70f0de02b2095c2c0066be50cad6e",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/tests/b02_core_fir_section_tests.cpp",
+      "sha": "b4a57edc12839d8210b26ac3d9eadb5b3f9ba192",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/tests/b02_core_fpu_section_tests.cpp",
+      "sha": "143bd9e17b893cf6873ad7ec978a54c346c169c9",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/tests/b02_core_hdd_section_tests.cpp",
+      "sha": "93209ce83ee3541fa9062a72a2f981d1a4801d1c",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/tests/b02_core_memory_section_tests.cpp",
+      "sha": "bcb5316653ee1bb641677481d7af0b0d623eb864",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/tests/b02_core_midi_section_tests.cpp",
+      "sha": "504c7392bea274224f8533a599db524fe1a89f41",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/tests/b02_core_motherboard_lcd_tests.cpp",
+      "sha": "a90dccbd27d0ba5512755b0c06425e6d1a662907",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/tests/b02_core_motherboard_panel_tests.cpp",
+      "sha": "61fdddaefd5692cb44fbbd257e916122e22fc5f0",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/tests/b02_core_motherboard_pit_tests.cpp",
+      "sha": "39c9679e4108d1574bebf6c64d8aea3b46c26c32",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/tests/b02_core_motherboard_registers_tests.cpp",
+      "sha": "c5e5ab38a3fe87feae770fe630bcf95c055ff928",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/tests/b02_core_ncr_section_tests.cpp",
+      "sha": "2e53bf1ef2f007ffd72de6aa17077e427b2b0019",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/tests/b02_core_partial_snapshot_tests.cpp",
+      "sha": "f8510e5e9ad346a8f7c4ecda7ef6ebf225053fd8",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/tests/b02_core_scc_controller_tests.cpp",
+      "sha": "a2cf8020aea70b513575123aabf36857d698155b",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/tests/b02_core_scc_fifo_tests.cpp",
+      "sha": "1d60e508023264eb009be73fe6a68ef8793d76c1",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/tests/b02_core_scc_lines_tests.cpp",
+      "sha": "2884a3853857ea4b3409d9bdf2fd2b9525a82b8d",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/tests/b02_core_scc_registers_tests.cpp",
+      "sha": "5353b1498a4d22fffdf0df745476bb1f4413dbda",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/tests/b02_core_scheduler_section_tests.cpp",
+      "sha": "edab92469db436b128aa6d6add9e375fa6be36f2",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/tests/b02_core_scsi_bus_section_tests.cpp",
+      "sha": "c52c3661d3466e263b5adac6ecc29cca09eef63f",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/tests/b02_core_scsi_target_section_tests.cpp",
+      "sha": "750b335ff19879b826c20a5933058c13b6386e36",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/tests/b02_core_section_container_tests.cpp",
+      "sha": "760097b40e1c5b8ad2c322de90fb81292d3188bf",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/tests/b02_core_section_roster_tests.cpp",
+      "sha": "97d5b0e6567d9fac7f398660fcbb9ac25c6dc7bd",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/tests/b02_core_time_tests.cpp",
+      "sha": "54f76447cfbe20c2874197e1f2ab563a1ce8de6b",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/tests/b02_cpu_initial_state_tests.cpp",
+      "sha": "384e8f298f857f21f0261f6761fc7b2a64da2328",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/tests/b02_fir_continuation_tests.cpp",
+      "sha": "65cdc764efaac971716ec4d4d95c5e87318d634f",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/tests/b02_firmware_continuation_tests.cpp",
+      "sha": "85388d1fd6fb0511ac0a9e0dc3e26a426ba4b1e0",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/tests/b02_serial_context_tests.cpp",
+      "sha": "ba7487dba1c8f0f23705cd95fa25c3123741dc64",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/tests/bank_corruption_tests.cpp",
+      "sha": "248df01d2de0d89789365a6e556db91f7a7650bb",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/tests/cd_image_identity_tests.cpp",
+      "sha": "c41c67046b3ebbc05738fe875fba23ed2b6cc817",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/tests/cd_mode_select_tests.cpp",
+      "sha": "3b54ced9d6c5c0b78edc388c19e2dd3d08946dda",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/tests/cd_read_bounds_tests.cpp",
+      "sha": "955d90250202ab273776dc7579b7c4bd5acad4d5",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/tests/cd_target_recall_tests.cpp",
+      "sha": "5f95cfe0b910f2bfb3f4aa2ca74695820ac62df2",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/tests/cpu_clock_recall_tests.cpp",
+      "sha": "fac4bcd12e79da9bf560a8df78d2bb7354759678",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/tests/disk_export_snapshot_tests.cpp",
+      "sha": "d43d9b87814220eaa580820a3710736e3392d184",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/tests/eiii_d0_controller_tests.cpp",
+      "sha": "0932b884fd1b09edb20a1f9624b01aea295ec255",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/tests/export_worker_guard_tests.cpp",
+      "sha": "f402e6eec368fe3ee682d68b491d8a13a5375aa1",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/tests/gui_poll_contract.py",
+      "sha": "ea81666d5f21b1b8e97382f6eb89486e5bc424d9",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/tests/hdd_target_recall_tests.cpp",
+      "sha": "787fcc87fd9956caf593c79bec14105346de77be",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/tests/headless_dirty_pump_tests.cpp",
+      "sha": "ca818f97dee8317cfc2e045b271f318c64fa1b4a",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/tests/image_fingerprint_tests.cpp",
+      "sha": "d9dbc2a164f006588b614828414fb191bb9abd3f",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/tests/large_file_tests.cpp",
+      "sha": "82fc29d7cf1a825664db99296a62dcdaf596fb97",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/tests/latency_policy_tests.cpp",
+      "sha": "997c01821f28d4156b570939a1556197af9a1085",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/tests/machine_memory_codec_tests.cpp",
+      "sha": "4cfa099f41c8133e226007342695b8442a53fb49",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/tests/memory_capture_tests.cpp",
+      "sha": "ceffd063e350830ebafa00e4aa91f580f224e9c7",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/tests/midi_controller_tests.cpp",
+      "sha": "9962074d7b93aac5619ad181f762d4753f8b3ff3",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/tests/midi_dispatch_tests.cpp",
+      "sha": "d174dbe84bd4726cd7fb58b9f2ace424c5f36387",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/tests/midi_pitchbend_defaults_tests.cpp",
+      "sha": "04f35b2c69d20aa91d36c38d2ef193352b2d14a5",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/tests/midi_routing_tests.cpp",
+      "sha": "7f4423bfcc05c839a120af209eaebf8a2e926c62",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/tests/motherboard_recall_tests.cpp",
+      "sha": "63d880c79717a808d95edb5c9f5982d2824072db",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/tests/note_off_recovery_tests.cpp",
+      "sha": "a9be7e0519f21d1390896b92cc9692d6b56cc441",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/tests/offline_engine_tests.cpp",
+      "sha": "7ebfff1a5fd209191ffc0672e7785f05d5b25cd1",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/tests/overlay_restore_guard_tests.cpp",
+      "sha": "578853106c297ec0d82f9b8df3fc50e77cbf32ea",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/tests/panel_adc_snapshot_tests.cpp",
+      "sha": "31bf8da37eeb62fc60fd92390a6dd04ce21b65ef",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/tests/progress_watchdog_tests.cpp",
+      "sha": "2bedcb02793e2d2813af3d1f76aadd90c39d3764",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/tests/project_activation_tests.cpp",
+      "sha": "2c7c6a54b4cc52b17fd9ea6d562b59aac7ef2d90",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/tests/project_dirty_revision_tests.cpp",
+      "sha": "736baf71e870b3552665cda3c46b5931584599eb",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/tests/restart_queue_tests.cpp",
+      "sha": "537910b9ca5d65cc3bbb7d8c66b2069372a75d2e",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/tests/restore_revisions_tests.cpp",
+      "sha": "8b67d8cc7a74075a3bd7a4b5581cbc57d44c6973",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/tests/sample_input_tests.cpp",
+      "sha": "df0b7f3f10c4be8e543c1d68bf6250a7e898b64f",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/tests/scsi_recall_tests.cpp",
+      "sha": "8933928aeec70416109082abc4df328b08a5e6c2",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/tests/scsi_target_recall_tests.cpp",
+      "sha": "cd9a9f3ff8e704068c7c1385c6bc8f818330f87d",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/tests/sector_bounds_tests.cpp",
+      "sha": "727709c7d4517f6e2d700852d6ef1cb7016f2425",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/tests/softfloat_tls_tests.cpp",
+      "sha": "3bf8c0847c6f016532cc10d9bcff0e9b9240c3c6",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/tests/state_codec_tests.cpp",
+      "sha": "0f1520fe692bdc7b358965f2fd8b18b18deca505",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/tests/ui_macro_adc_tests.cpp",
+      "sha": "5ea2fb2c55668a98a0cb74c36c0cec2ea1e38e16",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/tests/unicode_file_paths_tests.cpp",
+      "sha": "3c062a3d4e755dff4152f8aa2d3ae4c08737b31a",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/tests/wav_engine_tests.cpp",
+      "sha": "fbb550fad66f069ae4df2f2ba0b6705336a4c4ed",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/tests/wav_firmware_capture_tests.cpp",
+      "sha": "47ffc8d7efc061177e89cb497cdc6cbd49f1980a",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/tests/wav_import_tests.cpp",
+      "sha": "708e4ab36a14847bf621c406b830c9c9fbc51d17",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/tests/zoom_state_tests.cpp",
+      "sha": "705ee88b7dc3b49639b36c379371c27d21822920",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/vst3-port/CMakeLists.txt",
+      "sha": "21228a3154ada2c0750c016858b35e4aaafff0d3",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/vst3-port/INSTALLIEREN-BEIDE.cmd",
+      "sha": "74ec69eeb193dd3bba41ea798ddaee34ba536e53",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/vst3-port/INSTALLIEREN.cmd",
+      "sha": "b2e6774e73f31aec99083251b215391ed5b7d9a6",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/vst3-port/Install-Both-Complete.ps1",
+      "sha": "099be75beee0aef1e47644e7f5cbac6c62020cdb",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/vst3-port/b02_host_test.cpp",
+      "sha": "462c146f8e108f0aaeaaba60cb82d5defa701ac3",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/vst3-port/core_audio_queue_section.h",
+      "sha": "5ca66bfbed44d6dcb81948c24d371bc6665ebc1c",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/vst3-port/core_audio_timing.h",
+      "sha": "2eeda12d73d181be086a0cf30b2ebeb3fa0be582",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/vst3-port/core_cd_section.h",
+      "sha": "4cfa97306efdc66e44a43e48ca9921dacf9f5cd2",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/vst3-port/core_cem_v1_section.h",
+      "sha": "89114301775b6ed815435a40b0cc616f0f7f7bab",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/vst3-port/core_cem_v2_section.h",
+      "sha": "6e76b1186aa0c52139e4f48d5e4661b706f8e36a",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/vst3-port/core_checkpoint_bundle.h",
+      "sha": "b1d4bf01f755a76289074b8c76321e0549b16661",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/vst3-port/core_cpu_clock.h",
+      "sha": "102c7fe90585e0498bc096f4f173d09a20db9932",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/vst3-port/core_cpu_registers.h",
+      "sha": "83fd2469d9aaca41c6b7d1505ddced6b20123e49",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/vst3-port/core_d0_format.h",
+      "sha": "2a377df0b9d62178114d4ce562d9a6527e7e86d2",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/vst3-port/core_d0_section.h",
+      "sha": "52c0884280ab5b6abef14b751cd85f8165e332c4",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/vst3-port/core_execution_section.h",
+      "sha": "35b6e35e9e216416367285bb674d049311f2a1d3",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/vst3-port/core_fchip_section.h",
+      "sha": "fd640b34500488bd1dfa35ca857b5235fe9097f5",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/vst3-port/core_fir_section.h",
+      "sha": "c65927139ed413a5101ea6decb5d2d97c65552c4",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/vst3-port/core_fpu_section.h",
+      "sha": "0200e14ba3a3853c2ca96d0a257d2c59b6daf2b1",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/vst3-port/core_hdd_section.h",
+      "sha": "e49ba57a109c4a1c3080ee8f760a0de88c9060f8",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/vst3-port/core_machine_context.h",
+      "sha": "9f8d243b57b465635a10e8229221443e28e160d1",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/vst3-port/core_memory_section.h",
+      "sha": "c284111aaef2b42a9dd76a7b276836024d016a1a",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/vst3-port/core_midi_section.h",
+      "sha": "1c7c4094c08a2752506638a687857e3990534d0b",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/vst3-port/core_motherboard_lcd.h",
+      "sha": "671acb19eeca4d7227f5e3e7d9fa110cd31e88eb",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/vst3-port/core_motherboard_panel.h",
+      "sha": "a677681ccf8027f3e84ea05dca0424617ad7890b",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/vst3-port/core_motherboard_pit.h",
+      "sha": "b6dfad01864ab7ad75081325fb57702c5648148c",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/vst3-port/core_motherboard_registers.h",
+      "sha": "2918f93bdc0d4ac37bcbe352cf89a6dfdfe18ae5",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/vst3-port/core_ncr_section.h",
+      "sha": "6efca6137d1af7bcc5b36742f7e0122f7869b18e",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/vst3-port/core_partial_snapshot.h",
+      "sha": "d3e0429e9fe92c631112cbc8a3c9c66c1fa46fdb",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/vst3-port/core_scc_controller.h",
+      "sha": "88907315bdc9f02891a5b24c7c0bd1e3a1650512",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/vst3-port/core_scc_fifo.h",
+      "sha": "a85c994c0d1aee9f9e56b4c62427cb559f577b69",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/vst3-port/core_scc_lines.h",
+      "sha": "2830e11baba2b907d6c8e99e212a0b00c8e8b5c1",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/vst3-port/core_scc_registers.h",
+      "sha": "7f25a31fae3d212130b731817fcc1e1a873d2898",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/vst3-port/core_scheduler_section.h",
+      "sha": "f9eb6795e76c31667dba907826c6dd0e300f4da7",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/vst3-port/core_scsi_bus_section.h",
+      "sha": "7be536a786433a957a93805229058095693cf972",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/vst3-port/core_scsi_target_section.h",
+      "sha": "bbe96027e44cfaed3014c555e92aac04c611d1c5",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/vst3-port/core_section_container.h",
+      "sha": "d00f4c9fd89eff27eb2f7d0822fb262b092287e2",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/vst3-port/core_section_roster.h",
+      "sha": "23afaf752d8e5b654a6ce9d28eff5f8a46145b85",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/vst3-port/core_serial_section.h",
+      "sha": "df354362cf8fbac57998ad89c4b4e527d39b3c80",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/vst3-port/core_state_envelope.h",
+      "sha": "3f5ffbd22cab5cec1ea3034a2ebc354752948bde",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/vst3-port/core_time.h",
+      "sha": "bda2a3e168c383c0ecde45b355b8a75e6dc9fe0e",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/vst3-port/dirty_host_test.cpp",
+      "sha": "ab09113ea7524960a450b29203b571a91148cf09",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/vst3-port/disk_export_snapshot.h",
+      "sha": "6319ddaa25621604e91d3fc9b4ff718d4b0ad41e",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/vst3-port/eiii_autoload.cpp",
+      "sha": "42d524ef57020fde82c6599939bcd731a627e3f8",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/vst3-port/eiii_editor_win.cpp",
+      "sha": "f20ae67bd5adc43be0e76e1c7a201b6385210989",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/vst3-port/eiii_editor_win.h",
+      "sha": "367106856722df2bf129725f49003e0cdaa0da85",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/vst3-port/eiii_fonts.rc.in",
+      "sha": "be43af5a4b5a99446946410c86274bd2bc966466",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/vst3-port/eiii_zoom_state.h",
+      "sha": "aa97ddb1ef9fbdb065991605fa9ac14765385178",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/vst3-port/export_worker_guard.h",
+      "sha": "941d6d430d3955dc6fd243b7d68261a19a8678c4",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/vst3-port/generate_125a_logo.py",
+      "sha": "2dd6cd49dfe17e236d15fbce432e23d6fca01d61",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/vst3-port/headless_dirty_pump_win.h",
+      "sha": "eee64c501039561fa3e59513d1f09b7a97b62723",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/vst3-port/machine_memory_codec.h",
+      "sha": "33267be472662005d768e4e3c348815e1af46428",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/vst3-port/memory_capture.h",
+      "sha": "3de05128e858b3768baa6c3f580300c49e3b5ef4",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/vst3-port/midi_controllers.h",
+      "sha": "47593de477e4881513741ca3417bb89398d8db82",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/vst3-port/midi_defaults_host_test.cpp",
+      "sha": "874c6c207cf7e8dd5361aa2475cc5c9e6324d066",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/vst3-port/midi_dispatch.h",
+      "sha": "a698ea2da80bbcf8bf4b6f7a492f961f18d83684",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/vst3-port/midi_pitchbend_host_test.cpp",
+      "sha": "cd3b3a347e13fb2192a27368fe4695922cbb8c40",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/vst3-port/midi_routing.h",
+      "sha": "c26a52297b5326b1bf5334b4752d70c3b442eef5",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/vst3-port/note_off_recovery.h",
+      "sha": "7acacb4cba610e3ad88455bb9f9342884bacc09a",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/vst3-port/offline_host_test.cpp",
+      "sha": "06b68a88c103d0d3f076be9daf60fc5500e002d5",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/vst3-port/overlay_restore_guard.h",
+      "sha": "e5adf5a3af8b98ffd91b0c7f4fa83051a46b565c",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/vst3-port/project_activation.h",
+      "sha": "39f8176b4ac149dabc525c65c31a129e7a34b035",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/vst3-port/project_dirty_revision.h",
+      "sha": "7662aabc5f4ed57a02fa3f81ba572943a849046c",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/vst3-port/project_state.h",
+      "sha": "5cf52b7bf343fe8124a2f12803521fde955cc65e",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/vst3-port/restore_revisions.h",
+      "sha": "a6c6b2cf2ca8aa7daf772d3018922cff921a9448",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/vst3-port/run_offline_host_native.py",
+      "sha": "13b482dc0fefcae64efe6a3cff67aa4647a11c8f",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/vst3-port/sample_input.h",
+      "sha": "6805e7c03ed614fd062f1699fc040addb395e8b1",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/vst3-port/state_allocation_fault_test.h",
+      "sha": "c34d1da54e32f193add71dc801136da0787207fc",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/vst3-port/vst3_port.cpp",
+      "sha": "5e05ddd36888d3bc4ef371185ea2dae9b4824e6d",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/vst3-port/wav_host_test.cpp",
+      "sha": "98ffa25bd63df3a04f8106d3267819724272ced2",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/vst3-port/zoom_host_test.cpp",
+      "sha": "0b9f1c3f2ff8658f022d27bfa9cf3c49beab29c4",
+      "mode": "100644"
+    },
+    {
+      "path": "source/windows/vst3_sdk_probe.cpp",
+      "sha": "5be69fce46f32ef11d8c0e4ef83d072430518ca6",
+      "mode": "100644"
+    }
+  ]
+}
